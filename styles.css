@@ -1,0 +1,11 @@
+#home,#about,#portfolio,#contact{
+    height:500px;
+    margin-top:4px;
+}
+#home{
+    background-image: url("https://images.pexels.com/photos/877695/pexels-photo-877695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-reprat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
