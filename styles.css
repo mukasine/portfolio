@@ -1,6 +1,17 @@
-#home,#about,#portfolio,#contact{
+#home,#about,#portfolio{
     height:500px;
     margin-top:4px;
+}
+nav>ul>li{display:inline-block;
+   
+}
+nav>ul>li>a{color:rgb(189, 30, 30);
+text-decoration:none;
+}
+nav>ul{display:flex;
+    justify-content: space-around;
+    background-color:rgb(58, 45, 45);
+    padding:20px;
 }
 #home{
     background-image: url("https://images.pexels.com/photos/877695/pexels-photo-877695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -9,7 +20,26 @@
     text-align: center;
     color:white;
 }
+#portfolio{padding-top:100px;
+    background-color: rgb(198, 218, 211);
+
+}
 
 #portfolio a{
     display: block;
+    font-size:18px;
+}
+span{
+    color:blue;
+}
+#about{text-align: center;
+padding:60px;
+background-color: azure;
+height:600px;}
+
+#contact{padding-top: 100px;
+background-color: rgb(18, 56, 73);
+color:rgb(177, 126, 126);
+text-align: center;
+font-size:25px;
 }
